@@ -1,5 +1,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
 
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+
 .card00{
     margin: 20px;
     display: flex;
@@ -85,6 +88,27 @@ a{
 .slide{
     margin:10px 155px;
 }
-.1st{
+.startyourjourney{
+    display: flex;
+    margin:20px 50px;
+    border-radius: 10px;
+    align-items: center;
+}
+.image01{
+    border-radius: 10px;
+    flex: 2;
+}
+.nd{
+    display:flex;
+    margin: 75px;
+    display: inline-block;
+}
+footer{
+    /* display: flex; */
+    text-align: center;
+    height: 400px;
+    background-color: #ffc500;
+    
+
     
 }
