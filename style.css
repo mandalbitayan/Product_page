@@ -2,7 +2,9 @@
 
   @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
 
-
+html{
+    scroll-behavior: smooth;
+  }
 .card00{
     margin: 20px;
     display: flex;
@@ -104,11 +106,51 @@ a{
     display: inline-block;
 }
 footer{
-    /* display: flex; */
+    display: flex;
     text-align: center;
     height: 400px;
-    background-color: #ffc500;
-    
-
-    
+    background-color: #ffc500; 
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+#facebook:hover{
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+}
+a{
+color: black;
+text-decoration: none;
+}
+li{
+    list-style: none;
+    margin-left: 0px;
+  margin-right: 0px;
+  font-family: "helvetica-bold";
+  text-align: left;
+  position: relative;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: center;
+  padding:0 20px 0 0;
+}
+.footer-link01{
+    position: relative;
+    right: 10px;
+    padding-left: 10px;
+}
+.copyright{
+    position: relative;
+    top: 270px;
+    left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+#facebook{
+padding-right: 20px;
+}
+.contact-info{
+    padding-right: 70px;
 }
