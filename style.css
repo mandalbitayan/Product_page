@@ -9,6 +9,7 @@ html{
     margin: 20px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .img1{
 background-image: url("https://cdn.foreverliving.com/content/cards/images/aloe_peaches_mini_ad_544x568_1652131522139.jpg");
@@ -95,6 +96,7 @@ a{
     margin:20px 50px;
     border-radius: 10px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .image01{
     border-radius: 10px;
@@ -104,6 +106,7 @@ a{
     display:flex;
     margin: 75px;
     display: inline-block;
+    flex-wrap: wrap;
 }
 footer{
     display: flex;
